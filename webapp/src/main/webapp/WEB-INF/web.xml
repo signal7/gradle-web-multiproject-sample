@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5">
+  <display-name>Web App</display-name>
+
+  <!-- servlets -->
+  <servlet>
+    <servlet-name>GreetingServlet</servlet-name>
+    <servlet-class>foo.bar.GreetingServlet</servlet-class>
+  </servlet>
+
+  
+  <!-- servlet mappings -->
+  <servlet-mapping>
+    <servlet-name>GreetingServlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html</mime-type>
+  </mime-mapping>
+  
+</web-app>
+
