@@ -21,6 +21,8 @@ public class GreetingServlet extends HttpServlet {
 		PrintWriter writer = resp.getWriter();
 		writer.println("Hello World");
 		writer.flush();
+		new Sample();
+
 	}
 
 }
